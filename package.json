@@ -1,0 +1,47 @@
+{
+  "name": "base-game-platform",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build", 
+    "preview": "vite preview",
+    "optimize-avatar": "node scripts/optimize-avatar.cjs",
+    "optimize-gltf": "node scripts/optimize-gltf.cjs",
+    "simplify-avatar": "node scripts/simplify-avatar.cjs",
+    "analyze:gltf": "node scripts/analyze-gltf.cjs",
+    "parse:logs": "node scripts/parse-logs.cjs"
+  },
+  "keywords": [
+    "game",
+    "platform",
+    "threejs",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Base game platform with React Three.js",
+  "dependencies": {
+    "@react-three/drei": "^10.7.3",
+    "@react-three/fiber": "^9.3.0",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@types/three": "^0.179.0",
+    "@vitejs/plugin-react": "^5.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "socket.io-client": "^4.8.1",
+    "three": "^0.179.1",
+    "three-stdlib": "^2.36.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3",
+    "zustand": "^5.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  }
+}

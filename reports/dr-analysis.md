@@ -1,0 +1,266 @@
+# GLTF Analysis: dr
+
+- File: /Users/jodybeggs/Documents/base-game-platform/public/avatar/dr.gltf
+- Scenes: 1
+- Nodes: 71
+- Meshes: 1 (primitives: 13)
+- Materials: 13
+- Textures: 13
+- Images: 13
+- Skins: 1
+- Animations: 4
+
+## Geometry
+- Vertices: 84461
+- Triangles (approx): 10864
+- BBox Min: -22.141698837280273, -120.36819458007812, -125
+- BBox Max: 22.141698837280273, 120.36819458007812, 125
+- BBox Size: 44.28339767456055, 240.73638916015625, 250
+
+## Textures & Images
+- Image[0]: embedded (image/png)
+- Image[1]: embedded (image/png)
+- Image[2]: embedded (image/png)
+- Image[3]: embedded (image/png)
+- Image[4]: embedded (image/png)
+- Image[5]: embedded (image/png)
+- Image[6]: embedded (image/png)
+- Image[7]: embedded (image/png)
+- Image[8]: embedded (image/png)
+- Image[9]: embedded (image/png)
+- Image[10]: embedded (image/png)
+- Image[11]: embedded (image/png)
+- Image[12]: embedded (image/png)
+
+## Buffers
+- Buffer[0]: embedded (bytes: 841496)
+
+## Animations
+- Walking
+- Run
+- Idle
+- Jump
+
+## Animation Channels (targets)
+- Walking
+  - target: root, path: translation
+  - target: root, path: rotation
+  - target: rootx, path: rotation
+  - target: spine_01x, path: rotation
+  - target: spine_02x, path: rotation
+  - target: spine_03x, path: rotation
+  - target: neckx, path: rotation
+  - target: shoulderl, path: rotation
+  - target: arm_stretchl, path: rotation
+  - target: forearm_stretchl, path: rotation
+  - target: handl, path: rotation
+  - target: index1_basel, path: rotation
+  - target: index1l, path: rotation
+  - target: index2l, path: rotation
+  - target: middle1_basel, path: rotation
+  - target: middle1l, path: rotation
+  - target: middle2l, path: rotation
+  - target: pinky1_basel, path: rotation
+  - target: pinky1l, path: rotation
+  - target: pinky2l, path: rotation
+  - target: ring1_basel, path: rotation
+  - target: ring1l, path: rotation
+  - target: ring2l, path: rotation
+  - target: thumb1l, path: rotation
+  - target: thumb2l, path: rotation
+  - target: shoulderr, path: rotation
+  - target: arm_stretchr, path: rotation
+  - target: forearm_stretchr, path: rotation
+  - target: handr, path: rotation
+  - target: index1_baser, path: rotation
+  - target: index1r, path: rotation
+  - target: index2r, path: rotation
+  - target: middle1_baser, path: rotation
+  - target: middle1r, path: rotation
+  - target: middle2r, path: rotation
+  - target: pinky1_baser, path: rotation
+  - target: pinky1r, path: rotation
+  - target: pinky2r, path: rotation
+  - target: ring1_baser, path: rotation
+  - target: ring1r, path: rotation
+  - target: ring2r, path: rotation
+  - target: thumb1r, path: rotation
+  - target: thumb2r, path: rotation
+  - target: thigh_stretchl, path: rotation
+  - target: leg_stretchl, path: rotation
+  - target: footl, path: rotation
+  - target: thigh_stretchr, path: rotation
+  - target: leg_stretchr, path: rotation
+  - target: footr, path: rotation
+  - target: headx, path: rotation
+  - target: thumb3l, path: rotation
+  - target: thumb3r, path: rotation
+- Run
+  - target: root, path: translation
+  - target: root, path: rotation
+  - target: rootx, path: rotation
+  - target: spine_01x, path: rotation
+  - target: spine_02x, path: rotation
+  - target: spine_03x, path: rotation
+  - target: neckx, path: rotation
+  - target: shoulderl, path: rotation
+  - target: arm_stretchl, path: rotation
+  - target: forearm_stretchl, path: rotation
+  - target: handl, path: rotation
+  - target: index1_basel, path: rotation
+  - target: index1l, path: rotation
+  - target: index2l, path: rotation
+  - target: middle1_basel, path: rotation
+  - target: middle1l, path: rotation
+  - target: middle2l, path: rotation
+  - target: pinky1_basel, path: rotation
+  - target: pinky1l, path: rotation
+  - target: pinky2l, path: rotation
+  - target: ring1_basel, path: rotation
+  - target: ring1l, path: rotation
+  - target: ring2l, path: rotation
+  - target: thumb1l, path: rotation
+  - target: thumb2l, path: rotation
+  - target: shoulderr, path: rotation
+  - target: arm_stretchr, path: rotation
+  - target: forearm_stretchr, path: rotation
+  - target: handr, path: rotation
+  - target: index1_baser, path: rotation
+  - target: index1r, path: rotation
+  - target: index2r, path: rotation
+  - target: middle1_baser, path: rotation
+  - target: middle1r, path: rotation
+  - target: middle2r, path: rotation
+  - target: pinky1_baser, path: rotation
+  - target: pinky1r, path: rotation
+  - target: pinky2r, path: rotation
+  - target: ring1_baser, path: rotation
+  - target: ring1r, path: rotation
+  - target: ring2r, path: rotation
+  - target: thumb1r, path: rotation
+  - target: thumb2r, path: rotation
+  - target: thigh_stretchl, path: rotation
+  - target: leg_stretchl, path: rotation
+  - target: footl, path: rotation
+  - target: thigh_stretchr, path: rotation
+  - target: leg_stretchr, path: rotation
+  - target: footr, path: rotation
+  - target: headx, path: rotation
+  - target: thumb3l, path: rotation
+  - target: thumb3r, path: rotation
+- Idle
+  - target: root, path: translation
+  - target: root, path: rotation
+  - target: rootx, path: rotation
+  - target: spine_01x, path: rotation
+  - target: spine_02x, path: rotation
+  - target: spine_03x, path: rotation
+  - target: neckx, path: rotation
+  - target: shoulderl, path: rotation
+  - target: arm_stretchl, path: rotation
+  - target: forearm_stretchl, path: rotation
+  - target: handl, path: rotation
+  - target: index1_basel, path: rotation
+  - target: index1l, path: rotation
+  - target: index2l, path: rotation
+  - target: middle1_basel, path: rotation
+  - target: middle1l, path: rotation
+  - target: middle2l, path: rotation
+  - target: pinky1_basel, path: rotation
+  - target: pinky1l, path: rotation
+  - target: pinky2l, path: rotation
+  - target: ring1_basel, path: rotation
+  - target: ring1l, path: rotation
+  - target: ring2l, path: rotation
+  - target: thumb1l, path: rotation
+  - target: thumb2l, path: rotation
+  - target: shoulderr, path: rotation
+  - target: arm_stretchr, path: rotation
+  - target: forearm_stretchr, path: rotation
+  - target: handr, path: rotation
+  - target: index1_baser, path: rotation
+  - target: index1r, path: rotation
+  - target: index2r, path: rotation
+  - target: middle1_baser, path: rotation
+  - target: middle1r, path: rotation
+  - target: middle2r, path: rotation
+  - target: pinky1_baser, path: rotation
+  - target: pinky1r, path: rotation
+  - target: pinky2r, path: rotation
+  - target: ring1_baser, path: rotation
+  - target: ring1r, path: rotation
+  - target: ring2r, path: rotation
+  - target: thumb1r, path: rotation
+  - target: thumb2r, path: rotation
+  - target: thigh_stretchl, path: rotation
+  - target: leg_stretchl, path: rotation
+  - target: footl, path: rotation
+  - target: thigh_stretchr, path: rotation
+  - target: leg_stretchr, path: rotation
+  - target: footr, path: rotation
+  - target: headx, path: rotation
+  - target: thumb3l, path: rotation
+  - target: thumb3r, path: rotation
+- Jump
+  - target: root, path: translation
+  - target: root, path: rotation
+  - target: rootx, path: rotation
+  - target: spine_01x, path: rotation
+  - target: spine_02x, path: rotation
+  - target: spine_03x, path: rotation
+  - target: neckx, path: rotation
+  - target: shoulderl, path: rotation
+  - target: arm_stretchl, path: rotation
+  - target: forearm_stretchl, path: rotation
+  - target: handl, path: rotation
+  - target: index1_basel, path: rotation
+  - target: index1l, path: rotation
+  - target: index2l, path: rotation
+  - target: middle1_basel, path: rotation
+  - target: middle1l, path: rotation
+  - target: middle2l, path: rotation
+  - target: pinky1_basel, path: rotation
+  - target: pinky1l, path: rotation
+  - target: pinky2l, path: rotation
+  - target: ring1_basel, path: rotation
+  - target: ring1l, path: rotation
+  - target: ring2l, path: rotation
+  - target: thumb1l, path: rotation
+  - target: thumb2l, path: rotation
+  - target: shoulderr, path: rotation
+  - target: arm_stretchr, path: rotation
+  - target: forearm_stretchr, path: rotation
+  - target: handr, path: rotation
+  - target: index1_baser, path: rotation
+  - target: index1r, path: rotation
+  - target: index2r, path: rotation
+  - target: middle1_baser, path: rotation
+  - target: middle1r, path: rotation
+  - target: middle2r, path: rotation
+  - target: pinky1_baser, path: rotation
+  - target: pinky1r, path: rotation
+  - target: pinky2r, path: rotation
+  - target: ring1_baser, path: rotation
+  - target: ring1r, path: rotation
+  - target: ring2r, path: rotation
+  - target: thumb1r, path: rotation
+  - target: thumb2r, path: rotation
+  - target: thigh_stretchl, path: rotation
+  - target: leg_stretchl, path: rotation
+  - target: footl, path: rotation
+  - target: thigh_stretchr, path: rotation
+  - target: leg_stretchr, path: rotation
+  - target: footr, path: rotation
+  - target: headx, path: rotation
+  - target: thumb3l, path: rotation
+  - target: thumb3r, path: rotation
+
+## Avatar Hints
+- Has skins: true
+- Has animations: true
+- Has embedded textures: true
+- Has external textures: false
+- Has materials: true
+- Has meshes: true
+
+> Note: If the avatar appears detached or not moving, ensure transforms are applied to a single container/root and that animation mixers target the container. Also verify movement writes do not conflict with R3F declarative transforms.

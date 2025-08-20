@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .touch\:text-lg {
+    font-size: 1.125rem;
+  }
+  .touch\:p-6 {
+    padding: 1.5rem;
+  }
+}
